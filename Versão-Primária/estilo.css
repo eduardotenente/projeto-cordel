@@ -41,23 +41,12 @@ header{
 header h1{
     display: inline-block;
     font-family: var(--fonte-destaque);
-    font-size: 7.2em;
+    font-size: 10em;
+    font-variant: small-caps;
 
     color: var(--cor01);
     letter-spacing: 2px;
     padding-top: 35px;
-}
-
-header h1#primeiro{
-    padding-right: 30px;
-}
-
-header h1#segundo{
-    padding-left: 30px;
-}
-
-header h1::first-letter{
-    font-size: 1.5em;
 }
 
 header p{
@@ -79,7 +68,9 @@ header a:hover{
 
 main{
     background-color: var(--cor01);
-    height: 1100px;
+    height: 800px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.849);
 }
 
@@ -109,10 +100,6 @@ article.geral{
 article p{
     font-size: 4em;
     max-width: 800px;
-}
-
-article p.espaço{
-    margin-top: 100px;
 }
 
 div{
