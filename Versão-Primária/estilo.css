@@ -41,7 +41,7 @@ header{
 header h1{
     display: inline-block;
     font-family: var(--fonte-destaque);
-    font-size: 10em;
+    font-size: 10vw;
     font-variant: small-caps;
 
     color: var(--cor01);
